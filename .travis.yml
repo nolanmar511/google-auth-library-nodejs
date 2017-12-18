@@ -7,6 +7,7 @@ node_js:
   - "7"
 
 script:
+  - tsc -v 
   - npm test
 
 after_success:
